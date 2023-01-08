@@ -8,8 +8,8 @@
   <meta name="description" content="Piano trainer using MusicXML files and MIDI devices">
 </head>
 <body>
-  <div class="h-screen flex flex-col items-center space-y-4 justify-between p-2">
-    <div class="flex-col flex items-center justify-center mt-8 space-y-2">
+  <div class="w-full h-screen flex flex-col items-center space-y-4 justify-between p-2">
+    <div class="w-full p-2 flex-col flex items-center justify-center mt-8 space-y-2">
       <img src="/icon.png" width="150" height="150" />
       <h1 class="leading-1 font-medium text-2xl text-center">MuseTrainer</h1>
       <p class="text-center opacity-70">
@@ -23,8 +23,8 @@
             </svg>
           </div>
           <div>
-              <div class="text-xs">Play now on</div>
-              <div class="text-2xl font-semibold font-sans -mt-1">Browser</div>
+              <div class="text-xs">Play on desktop web</div>
+              <div class="text-2xl font-semibold font-sans -mt-1">Chrome</div>
           </div>
         </a>
         <a class="flex mt-3 w-48 h-14 bg-transparent text-black border border-black rounded-xl items-center justify-center opacity-50" href="#">
@@ -40,8 +40,13 @@
         </a>
       </div>
     </div>
-    <div class="text-xs opacity-50">
-      MuseTrainer &copy; 2023
+    <div class="text-xs opacity-50 flex flex-col items-center justify-center space-y-2">
+      <div>
+        <a href="/terms.html">Terms</a> &middot; <a href="/privacy.html">Privacy</a> &middot; <a href="/support.html">Support</a>
+      </div>
+      <div>
+        &copy; <a href="/">MuseTrainer</a>
+      </div>
     </div>
   </div>
 </body>
